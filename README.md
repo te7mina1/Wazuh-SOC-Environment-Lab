@@ -143,7 +143,7 @@ Future versions of this lab will include:
 
 ## Author
 
-**Randy**
+**te7mina1**
 
 Cybersecurity Student | SOC Analyst | SIEM | Blue Team
 
