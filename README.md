@@ -1,4 +1,4 @@
-# SOC Environment SIEM Lab
+<img width="1919" height="925" alt="image" src="https://github.com/user-attachments/assets/3b75960e-f67c-4cd9-83b2-f70333352d7d" /># SOC Environment SIEM Lab
 
 A complete Security Operations Center (SOC) lab built using **Wazuh SIEM** to simulate real-world security monitoring, log analysis, and threat detection across Windows, Linux, and network infrastructure.
 
@@ -26,21 +26,15 @@ The environment simulates how a Security Operations Center monitors infrastructu
 
 The lab consists of the following components:
 
-- **Kali Linux**
-  - Wazuh Manager
-  - Wazuh Indexer
-  - Wazuh Dashboard
 
-- **Windows 11 Endpoint**
-  - Wazuh Agent
-  - Microsoft Sysmon
+| Virtual Machines  | Components |
+| ------------- | ------------- |
+| **Kali Linux**  | Wazuh Manager <br> Wazuh Indexer<br> Wazuh Dashboard |
+| **Windows 11 Endpoint**  | Wazuh Agent<br> Microsoft Sysmon |
+| **Ubuntu Linux Endpoint** | Wazuh Agent<br> auth.log |
+| **pfSense Firewall** | Remote Syslog <br> Network traffic monitoring |
+ 
 
-- **Ubuntu Linux Endpoint**
-  - Wazuh Agent
-
-- **pfSense Firewall**
-  - Remote Syslog
-  - Network traffic monitoring
 
 ---
 
@@ -78,40 +72,11 @@ The lab consists of the following components:
 
 The project includes three operational dashboards:
 
-### Authentication Activity Dashboard
-
-Monitors:
-
-- Successful logins
-- Failed logins
-- Authentication trends
-- Top failed usernames
-- Authentication events by host
-
----
-
-### Endpoint Process Activity Dashboard
-
-Monitors:
-
-- Process creation events
-- Frequently executed processes
-- Parent-child process relationships
-- User activity
-- Recent process executions
-
----
-
-### Network Traffic Dashboard
-
-Monitors:
-
-- Network traffic volume
-- Source IP activity
-- Destination IP activity
-- Firewall pass/block actions
-- Protocol distribution
-- Recent network connections
+| **Dashboard** | **Monitors** |
+| --------------| -------------|
+| Authentication Activity Dashboard | Successful logins<br>Failed logins<br>Top failed usernames<br> Authentication events by host |
+| Endpoint Process Activity Dashboard | Process creation events<br>Frequently executed processes<br>Parent-child process relationships<br>User activity<br>Recent process executions |
+| Network Traffic Dashboard | Network traffic volume<br>Source IP activity<br>Destination IP activity<br>Firewall pass/block actions<br>Protocol distribution<br>Recent network connections |
 
 ---
 
