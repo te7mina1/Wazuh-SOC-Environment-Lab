@@ -1,4 +1,6 @@
-<img width="1919" height="925" alt="image" src="https://github.com/user-attachments/assets/3b75960e-f67c-4cd9-83b2-f70333352d7d" /># SOC Environment SIEM Lab
+<img width="1919" height="925" alt="image" src="https://github.com/user-attachments/assets/3b75960e-f67c-4cd9-83b2-f70333352d7d" />
+
+# SOC Environment SIEM Lab
 
 A complete Security Operations Center (SOC) lab built using **Wazuh SIEM** to simulate real-world security monitoring, log analysis, and threat detection across Windows, Linux, and network infrastructure.
 
